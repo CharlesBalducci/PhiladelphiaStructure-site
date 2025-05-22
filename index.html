@@ -56,5 +56,135 @@
 <body>
   <!-- Page body content... -->
   <h2>COMMERCIAL REAL ESTATE SERVICES FOR SMALL BUSINESS</h2>
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+    }
+
+    .content-image {
+      width: 100%;
+      height: auto;
+      margin: 1rem 0;
+    }
+
+    section.contact {
+      background-color: #eee;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-radius: 8px;
+    }
+
+    form {
+      margin-top: 1rem;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background-color: #003366;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #003366;
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      header, main {
+        padding: 1rem;
+      }
+    }
+  </style>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSVMLG2Z2E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WSVMLG2Z2E');
+  </script>
+</head>
+<body>
+  <header>
+    <img src="images/header-placeholder.jpg" alt="Philadelphia skyline with construction cranes and modern buildings" loading="lazy">
+    <h1>Philadelphia Structure</h1>
+    <p>Design & Construction Excellence in the Heart of Philly</p>
+  </header>
+
+  <main>
+    <h2>Welcome to Philadelphia Structure</h2>
+    <p>We bring decades of expertise to construction, renovation, and architectural design throughout the Philadelphia region. Whether you're building new or restoring the historic, Philadelphia Structure is your trusted partner for quality, innovation, and integrity.</p>
+
+    <img class="content-image" src="images/body-placeholder.jpg" alt="Modern building under construction with scaffolding and workers" loading="lazy">
+
+    <section class="contact">
+      <h3>Contact Us</h3>
+      <p><strong>Phone:</strong> (484) 430-1632</p>
+      <p><strong>Email:</strong> <a href="mailto:philadelphiacommercial@gmail.com">philadelphiacommercial@gmail.com</a></p>
+      <p><strong>Address:</strong> 1619 Walnut St, Fourth Floor, Philadelphia, PA 19103</p>
+      <p><strong>Facebook:</strong> <a href="https://www.facebook.com/philadelphiastructure" target="_blank" rel="noopener noreferrer">Visit us on Facebook</a></p>
+
+      <form action="https://formspree.io/f/xnndrllq" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Your full name" required>
+
+        <label for="name">Mobile</label>
+        <input type="text" name="mobile" id="mobile" placeholder="Mobile Number Optional" optional>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="your@email.com" required>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" placeholder="How can we help you?" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Philadelphia Structure. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+  
 </body>
 </html>
